@@ -71,3 +71,95 @@ img {
 .clear {
   clear: both;
 }
+
+
+@media screen and (max-width:420px) {
+
+  hr{
+    border: 1px solid black;
+  }
+  /* div 1 */
+  .row{
+    margin-top:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+
+  }
+
+  .row img{
+    margin-top: 30px;
+  }
+
+  #lezioni .row{
+    background-color: #f2f2cd;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+  float: none;
+  width: 95%;
+  margin: 0 auto;
+
+}
+
+  #lezioni h1{
+    padding-top: 20px;
+    margin-top:0 ;
+    font-size: 55px;
+  }
+  #lezioni h3{
+  
+    margin: 0;
+    font-size: 35px;
+  }
+  /* div 1 */
+
+  /* div 2 */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: none;
+  width: 95%;
+  margin: 0 auto;
+  } 
+
+  #steps > .row{
+    background-color: white;
+  }
+
+  #steps h1{
+    margin-bottom: 0;
+    font-size: 55px;
+  }
+  #steps h3{
+    margin: 0;
+    font-size: 35px;
+  }
+
+   /* div 2 */
+
+   /* div 3 */
+  #why > .row {
+    background-color: #f2f2cd;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  width: 95%;
+  margin: 0 auto;
+}
+
+  #why h1{
+    padding-top: 20px;
+    margin-bottom: 0;
+    font-size: 55px;
+  }
+  #why h3{
+    margin: 0;
+    font-size: 35px;
+  }
+
+   /* div 3 */
+  
+}
