@@ -75,10 +75,7 @@ img {
 
 @media screen and (max-width:420px) {
 
-  hr{
-    border: 1px solid black;
-  }
-  /* div 1 */
+  /* classe row prima di ogni container*/
   .row{
     margin-top:0;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -90,16 +87,27 @@ img {
     margin-top: 30px;
   }
 
+  .row h3 {
+    margin: 0;
+    font-size: 35px;
+  }
+
+  hr{
+    border: 1px solid black;
+  }
+
+  /* /classe row prima di ogni container*/
+
+  /* parte 1 */
   #lezioni .row{
     background-color: #f2f2cd;
   }
 
   #lezioni .row > .left,
   #lezioni .row > .right {
-  float: none;
-  width: 95%;
-  margin: 0 auto;
-
+    float: none;
+    width: 95%;
+    margin: 0 auto;
 }
 
   #lezioni h1{
@@ -107,20 +115,16 @@ img {
     margin-top:0 ;
     font-size: 55px;
   }
-  #lezioni h3{
-  
-    margin: 0;
-    font-size: 35px;
-  }
-  /* div 1 */
 
-  /* div 2 */
+  /* /parte 1 */
+
+  /* parte 2 */
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-  float: none;
-  width: 95%;
-  margin: 0 auto;
+    float: none;
+    width: 95%;
+    margin: 0 auto;
   } 
 
   #steps > .row{
@@ -131,14 +135,10 @@ img {
     margin-bottom: 0;
     font-size: 55px;
   }
-  #steps h3{
-    margin: 0;
-    font-size: 35px;
-  }
 
-   /* div 2 */
+  /* /parte 2 */
 
-   /* div 3 */
+  /* parte 3 */
   #why > .row {
     background-color: #f2f2cd;
   }
@@ -146,8 +146,8 @@ img {
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-  width: 95%;
-  margin: 0 auto;
+    width: 95%;
+    margin: 0 auto;
 }
 
   #why h1{
@@ -155,11 +155,5 @@ img {
     margin-bottom: 0;
     font-size: 55px;
   }
-  #why h3{
-    margin: 0;
-    font-size: 35px;
-  }
-
-   /* div 3 */
-  
+  /* /parte 3 */
 }
